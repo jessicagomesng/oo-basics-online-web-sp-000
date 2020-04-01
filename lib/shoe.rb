@@ -11,6 +11,7 @@ class Shoe
     puts "Your shoe is as good as new!"
 
     self.condition= "new"
+    self.condition 
   end
 
 end
