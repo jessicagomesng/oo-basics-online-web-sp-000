@@ -5,29 +5,7 @@ class Book
 
   attr_reader :title
 
-  def author=(author)
-    @author = author
-  end
-
-  def author
-    @author
-  end
-
-  def genre=(genre)
-    @genre = genre
-  end
-
-  def genre
-    @genre
-  end
-
-  def page_count=(page_count)
-    @page_count = page_count
-  end
-
-  def page_count
-    @page_count
-  end
+  attr_accessor :author, :page_count, :genre
 
   def turn_page
     puts "Flipping the page...wow, you read fast!"
